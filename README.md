@@ -12,9 +12,9 @@ specification with the following properties:
 JSON Function Invocation:
 ```json
 {
-    Remotefunc_version: "1.0", 
-    Function: "FunctionName", //Name of the function
-    Parameters: [ //List Parameters
+    "Remotefunc_version": "1.0", 
+    "Function": "FunctionName", //Name of the function
+    "Parameters": [ //List Parameters
         {
             StringAttributeName: "Data", //String
             NumberAttributeName: 1, //Integer/Float
@@ -28,8 +28,8 @@ JSON Function Invocation:
 JSON Function Specification:
 ```json
 {
-    FunctionName: {
-        Parameters: 3 //parameter count
+    "FunctionName": {
+        "Parameters": 3 //parameter count
     },
     ...
 }
