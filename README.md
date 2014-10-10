@@ -16,9 +16,9 @@ JSON Function Invocation:
     "Function": "FunctionName", //Name of the function
     "Parameters": [ //List Parameters
         {
-            StringAttributeName: "Data", //String
-            NumberAttributeName: 1, //Integer/Float
-            ObjectAttribute: {...} //Internal Struct / Object
+            "StringAttributeName": "Data", //String
+            "NumberAttributeName": 1, //Integer/Float
+            "ObjectAttribute": {...} //Internal Struct / Object
         },
         {...}
     ]
